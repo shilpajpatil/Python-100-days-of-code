@@ -1,5 +1,5 @@
 
-# I have used Module from python 
+1. main.py I have used Module from python 
 	-> A file containing Python code, for e.g.: Addition.py, is called a module and its module 
 	   name would be Addition. 
 	-> We use modules to break down large programs into small manageable and organized 
@@ -18,17 +18,20 @@
 		|             |
 	     (moduleName)   (Function Name)
 
-#Addition Module
+2.Addition Module
 	-> In this module i have created a calculator where if you have pass two number to a function it 
 	   will print addition ,subtraction , Multiplication , and division
-#Factorial of a number 
+3.Factorial of a number 
 	-> It will find the factorial of a number 
         -> e.g. 5!=5*4*3*2*1 = 120
 
-# Factors of number 
+4.Factors of number 
  	-> if will find the factors of that number and store it inside the list and 
 	   disply that list 
         -> factors of e.g. 6 = [1,2,3,6] 
+
+5.Find the length of a string
+	-> Function will print length of a string using len() function
 
 
 
