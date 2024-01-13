@@ -1,1 +1,25 @@
 
+1. First I solved on simple program swapping numbers.
+2. Accepting three numbers from user and print that maximum number 
+3. I have started with the Python list data type. Following operations get performed on a list. 
+About list: 
+    * list is the most frequently used very versatile datatype.
+    * In single list may contain data types like integer, string, object
+    * A list is mutable,hence we can alter even after its creation.
+
+list is considered as array which contains heterogenous data
+   1. hetrogeneous
+   2. Ordered
+   3. Indexed
+   4. Mutable
+   5. Allows Duplicated
+
+Foolwing operation are performed on list - 
+
+      1. Insert- Adding element at a particular index
+      2. Append - Adding element at the end of list
+      3. del  - deleting element 
+      4. sort - if list is homogeneous then sort will perform.
+      5. pop - it will remove the last element
+      6. remove- it will remove the passed item to remove function
+
