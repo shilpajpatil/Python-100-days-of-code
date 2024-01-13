@@ -6,8 +6,8 @@ import listoperations
 
 import Swapnumber
 def main():
-   # Maxnumber.maxnumber()
-    #Swapnumber.swapnum()
+   Maxnumber.maxnumber()
+   Swapnumber.swapnum()
    # Palindrome.palindrome()
 
    listoperations.listoperations()
