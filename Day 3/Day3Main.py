@@ -1,14 +1,15 @@
 
-import Maxnumber
-import listoperations
-
+import Reverselist
+import Setoperations
+import Checkleapyear
 import Palindrome
 
-import Swapnumber
 def main():
-   # Maxnumber.maxnumber()
-    #Swapnumber.swapnum()
-    Palindrome.palindrome()
+
+   Checkleapyear.findleapyear()
+   Setoperations.setoperations()
+   Palindrome.palindrome()
+   Reverselist.revlist()
 
 
 if __name__ == "__main__":
