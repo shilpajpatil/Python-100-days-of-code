@@ -1,1 +1,26 @@
+Day 3 starts with reversing a user-created list.
+
+Start with leap year :
+    -> To find leap year you have to check three conditions. 
+    -> If a year is divisible by 4, it's a potential leap year.
+    -> If it's divisible by 100, it might not be a leap year (unless the next condition is true).  
+    -> If it's divisible by 400, it is a leap year.
+
+Check whether the number is palindrome or not :
+    -> A palindrome number is a number that remains the same when its digits are reversed. 
+
+Explore the set:
+     -> A set is unordered collection of items.
+     -> Every element is unique.
+     -> immutable (which cannot change)
+     -> set itself is mutable. we can add or remove items from it. 
+
+Characteristics:
+    * Hetrogeneous
+    * unordered
+    * unindexed
+    * Immutable 
+    * Duplicate not allowed.
+  
+
 
