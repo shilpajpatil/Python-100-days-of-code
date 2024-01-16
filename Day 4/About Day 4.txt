@@ -1,0 +1,40 @@
+
+1.Main.py I have used Module from python 
+	-> A file containing Python code, for e.g.: Addition.py, is called a module and its module 
+	   name would be Addition. 
+	-> We use modules to break down large programs into small manageable and organized 
+	   files. 
+	-> Modules provide reusability of code. 
+	-> We can define our most used functions in a module and import it, instead of copying 
+	   their definitions into different programs.
+	-> To import our defined module Addition we type the following in the Python 
+		prompt. 
+ 		import Addition
+	->This does not enter the names of the functions defined in example directly in the current 
+	  symbol table. 
+	->It only enters the module name example there. 
+	-> Using the module name we can access the function using dot (.) operation. 
+	   Addition    .   addition()
+		|             |
+	     (moduleName)   (Function Name)
+
+2.Check how many days occures in particular month:
+3.Toss a coin and get headot tell
+	->  I have used python inbuilt random module to get random toss coin.
+4.String operations in python :
+	-> A string is a sequence of character.
+	-> String can be created by enclosing character inside single quote or double quote.
+	-> Like array we can access characters from string by sepcefying the index.
+following are the performed operations on string:
+*access using negative index right to left
+*preing type of string
+*We can also pring characters in range 
+len() -function to calculate length of a string
+*Strip() - is used to remove spaces from beginning and end
+*split() - use to tokanize a string
+
+
+ 
+ 	
+
+     
