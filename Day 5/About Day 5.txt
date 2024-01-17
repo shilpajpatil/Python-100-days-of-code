@@ -1,0 +1,43 @@
+
+1.Main.py I have used Module from python 
+	-> A file containing Python code, for e.g.: Addition.py, is called a module and its module 
+	   name would be Addition. 
+	-> We use modules to break down large programs into small manageable and organized 
+	   files. 
+	-> Modules provide reusability of code. 
+	-> We can define our most used functions in a module and import it, instead of copying 
+	   their definitions into different programs.
+	-> To import our defined module Addition we type the following in the Python 
+		prompt. 
+ 		import Addition
+	->This does not enter the names of the functions defined in example directly in the current 
+	  symbol table. 
+	->It only enters the module name example there. 
+	-> Using the module name we can access the function using dot (.) operation. 
+	   Addition    .   addition()
+		|             |
+	     (moduleName)   (Function Name)
+
+
+2. Accept two list from user and check these two list are identical or not:
+3. Number guessing game
+4.Python tuple module.
+   Tuple - We cannot change the elements of tuple when it is get assigned.
+          -Tuple is used for hecterogeneous data.
+          - Tuple are immutable hence itereating through tuple is faster.
+  
+*Heterogeneous
+*Ordered
+*Indexed 
+*Immutable
+*Allow Duplicate
+
+
+
+
+
+
+
+
+
+
