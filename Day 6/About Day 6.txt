@@ -1,0 +1,5 @@
+1. Accept a file name from user and print that file extension.
+
+2. Print the IP address of your current machine.
+
+3. Print the user name of your current machine you are using.
