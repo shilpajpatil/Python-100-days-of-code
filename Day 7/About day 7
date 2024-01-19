@@ -1,0 +1,14 @@
+1. Accept a string from the user and print the first middle and last character in a string.
+
+2. Accept two strings from a user and also 3rd string and append the third string between first and second.
+
+3. Explained array in Python:
+ -> An array is a collection of items stored in a contiguous memory location.
+ ->It is easy to calculate the position of each element by simply adding an offset of a base value.
+ ->Python does not have built-in support for arrays, but Python list can be used instead.
+ -> If you want to create an array in Python we have to use the below syntax
+
+      Array_Name = array('Type_code',[Elements])
+
+
+    
