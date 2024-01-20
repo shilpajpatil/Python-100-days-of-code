@@ -1,0 +1,9 @@
+
+1. Create an array and apply following operations:
+    1. Array creation
+    2. Append number in priviously created array 
+    3. print the length of array 
+    4. Print the buffer information
+    5. Accept a number from user and print occurance of that number.
+    6. Accept a number from user and remove the first occurance of that number.
+  
