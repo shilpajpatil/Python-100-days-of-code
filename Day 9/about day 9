@@ -1,1 +1,9 @@
 
+1. Accept a number from the user and check whether the number is an Armstrong number.
+  -> Armstrong number - 153 = 
+                          1*1*1 + 5*5*5 + 3*3*3 =153
+  -> It's a number that equals the sum of its digits, each raised to a power. 
+
+2. Accept a number from the user and reverse it.
+3. Accept a number from the user and print the table.
+4. Accept a number from the user and check whether the number is prime or not
