@@ -1,0 +1,15 @@
+
+1. Accept a character from user and check its vowel or not.
+2. Accept a redius from user and print the area of a circle.
+3. Python module dictionary- 
+    ->Dictionaries are used to store data values in key:value pair.
+    ->Dictionary are - ordered
+                     - changeable
+                     - Do not aloow duplicate
+
+  -> Dictionaries are written in curlt brackets - {}
+  ->We can apply following operations on dictionaries:- update()
+                                                      - del()
+                                                      - pop()
+                                                      - clear()
+                                                      - values()
