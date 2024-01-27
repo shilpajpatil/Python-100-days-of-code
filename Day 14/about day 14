@@ -1,1 +1,4 @@
 
+1.Get a list of 1 or the last element is 6 then return true or false
+
+2. Given a string and a non-negative int n, return a larger string that is n copies of the original string.
