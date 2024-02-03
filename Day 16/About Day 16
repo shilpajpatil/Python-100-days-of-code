@@ -21,7 +21,7 @@ Pytest
 
             Command: py. test -v -s
 
-# In pytest if you want to compare two things you have to use assert   
+#3 In pytest if you want to compare two things you have to use assert [Refer: test_assert.py]   
 
 #2.  How to Run one test case and another test case from another file        [Refer: test_demo.py , test_demo2.py ]
    * For this you have to use a command as follows:
