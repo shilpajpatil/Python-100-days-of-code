@@ -28,6 +28,9 @@ Pytest
 
           Command:   py. test -k [(name of the method) which is the same for all the methods]  -v -s
 
+                    here I will  use command :    py.test -k sqrt -v -s
+                               sqrt named functions are available in both test_demo.py and test_demo2.py
+
                      -k:  executing method name 
                      -v:  Displaying logs of output
                      -s:  more information about metadata
