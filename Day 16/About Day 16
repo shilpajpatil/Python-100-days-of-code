@@ -1,24 +1,37 @@
 Pytest 
-  * pytest is a python testing framework based on python.
-  * Installing pytest  :   pip install pytest
-  * Running pytest without mentioning filename will run all files if format test_*.py ,_test.py in the current directory or subdirectories.
+
+#1. Basics of pytest:   [Refer: test_BasicFirst.py ]
+
+  * pytest is a Python testing framework based on Python.
+  * Installing pytest:   pip install pytest
+  * Running pytest without mentioning the filename will run all files if format test_*.py,_test.py in the current directory or subdirectories.
   * Pytest automatically identifies those files as test files.
-  * Any code should be wrapped in method.
+  * Any code should be wrapped in the method.
 
-#---how to run test cases using command prompt:
-      * for running a test case using command prompt you have to used following command:
-            command : py.test
+# How to run test cases using command prompt:
+      * for running a test case using the command prompt you have to use the following command:
+            command: py.test
 
-      * If you have to run multiple commands at a time then you can use following command:
-        Step1: go to that path where your at the testfiles are saved
+      * If you have to run multiple commands at a time then you can use the following command:
+        Step1: go to that path where your at test files are saved
         
-            command :py.test -v
+            command : py.test -v
 
-      * if you want to see full result then you can use the following command:
+      * if you want to see the full result then you can use the following command:
 
-            Command : py.test -v -s
+            Command: py. test -v -s
 
-# In pytest if you want to compare two things you have to use assert 
+# In pytest if you want to compare two things you have to use assert   
+
+#2.  How to Run one test case and another test case from another file        [Refer: test_demo.py , test_demo2.py ]
+   * For this you have to use a command as follows:
+
+          Command:   py. test -k [(name of the method) which is the same for all the methods]  -v -s
+
+                     -k:  executing method name 
+                     -v:  Displaying logs of output
+                     -s:  more information about metadata
+
 
 
   
