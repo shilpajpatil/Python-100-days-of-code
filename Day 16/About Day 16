@@ -1,0 +1,24 @@
+Pytest 
+  * pytest is a python testing framework based on python.
+  * Installing pytest  :   pip install pytest
+  * Running pytest without mentioning filename will run all files if format test_*.py ,_test.py in the current directory or subdirectories.
+  * Pytest automatically identifies those files as test files.
+  * Any code should be wrapped in method.
+
+#---how to run test cases using command prompt:
+      * for running a test case using command prompt you have to used following command:
+            command : py.test
+
+      * If you have to run multiple commands at a time then you can use following command:
+        Step1: go to that path where your at the testfiles are saved
+        
+            command :py.test -v
+
+      * if you want to see full result then you can use the following command:
+
+            Command : py.test -v -s
+
+# In pytest if you want to compare two things you have to use assert 
+
+
+  
