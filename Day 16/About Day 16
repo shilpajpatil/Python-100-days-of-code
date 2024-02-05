@@ -48,6 +48,7 @@ Pytest
     - you can define a class and inside that class put all the functions you want to add fixture.
     - Refer:  test_fixtureclass.py
     - you are able to also set scope for the class.
+    - When you set the scope for class then yield will run only once after all the functions get run.
     
   
 
