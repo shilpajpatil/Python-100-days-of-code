@@ -44,7 +44,12 @@ Pytest
     - Fixtures are functions, which will run before each test function to which it is applied. 
     - Fixtures are used to feed some data to the tests such as database connections, URLs to test, and some sort of input data.
     - conftest.py: We can define the fixture functions in this file to make them accessible across multiple test files.
- 
+    - If you want to apply a fixture on multiple functions then there is no need to pass the fixture to that function you can use class.
+    - you can define a class and inside that class put all the functions you want to add fixture.
+    - Refer:  test_fixtureclass.py
+    - you are able to also set scope for the class.
+    
+  
 
 
 
