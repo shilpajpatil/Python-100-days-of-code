@@ -28,16 +28,26 @@ Pytest
 
           Command:   py. test -k [(name of the method) which is the same for all the methods]  -v -s
 
-                    here I will  use command:    py.test -k sqrt -v -s
+                    here I will  use the command:    py.test -k sqrt -v -s
                                sqrt named functions are available in both test_demo.py and test_demo2.py
 
                      -k:  executing method name 
                      -v:  Displaying logs of output
                      -s:  more information about metadata
 
-#4. The pytest module will provide mark. smoke :     [Refer : test_skiporsmoke.py test_skiporsmoke,py2]
+#4. The pytest module will provide a mark. smoke :     [Refer: test_skiporsmoke.py test_skiporsmoke,py2]
       - @pytest.mark.smoke is used to run multiple test cases at one time.
       - @pytest.mark.xfail is used to run but not display anything
-      - @pytest.mark.skip which is used to test is falling & we didn't get the actual result.
+      - @pytest.mark.skip used to test is falling & we didn't get the actual result.
+
+#5 fixture in pytest:       [Refer: tes_fixturedemo.py]
+    - Fixtures are functions, which will run before each test function to which it is applied. 
+    - Fixtures are used to feed some data to the tests such as database connections, URLs to test, and some sort of input data.
+    - conftest.py: We can define the fixture functions in this file to make them accessible across multiple test files.
+ 
+
+
+
+     
  
   
