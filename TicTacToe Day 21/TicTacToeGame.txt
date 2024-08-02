@@ -1,0 +1,8 @@
+Making basic Tic-Tac-Toe board. Here we will represent all the box using a dictionary. 
+Dictionary has a key value pairs.So, initially we set all the values in the dictionary as empy string.
+
+Rules :
+  1. There can be maximum 2 players.
+  2. players will play one by one, one player can put 'X' in any of the box and other can put 'O'
+  3. player will win if All the column or row digonal has same sign. 
+  
