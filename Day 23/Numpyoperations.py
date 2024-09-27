@@ -37,17 +37,24 @@ Day number  Steps walked
 
 import numpy as np
 
-
 day = [1,2,3,4,5,6,7,8,9, 10]
 lee_steps = [6012, 7079,6886,7230,4598,5564,6971,7763,8032,9569]
+
+#-Represent the above data in a 10x2 array. 
+#In each row, the first element should contain day number and second element should contain steps walked.
 data =np.column_stack( [day , lee_steps])
-#print(data)
+print(data)
+
+#Lee notices that the tracker’s battery dies every day at 7 pm.
+#Lee discovers that on an average, he walks 2000 steps every day after 7 pm. 
+#Perform an appropriate operation on your array to add 2000 steps to all the observations.
 updates_lee = np.array(lee_steps)+2000
 updated_data =np.column_stack((day , updates_lee))
-#print(updated_data)
+print(updated_data)
 
+#Write a program that returns the steps walked if the steps walked are more than 9000.
 steps  = np.where(updates_lee >= 9000)
-#print(updated_data[steps])
+print(updated_data[steps])
 
-#print data in sorted array
+#Print an array containing steps walked in sorted order.
 print(np.sort(updates_lee))
